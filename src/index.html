@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="central">
-      <form>
-          <h1>Bem vindo a cifra de Cesar... </h1>
-          <h3>Desenvolvida com o intuito de possibilitar à dois indivíduos se comunicar de forma segura,<br> 
-            ou seja, consiste em cifrar uma informação que será enviada pelo remetente de forma que,  <br>
-            caso esta informação seja interceptada por algum intruso, ele não seja capaz de entende-la. <br><br>
-            Teste você mesmo e faça as suas mensagens criptografadas!!!</h3>
-          
-          <label>Insira o texto a ser criptografado:</label><br>
-          <input type="text" name="texto" id="texto" ><br>
-         <label>Insira o valor do deslocamento:</label> <br>
-          <input type="number" name="deslocamento" id="deslocamento"  ><br><br>
-          <input type="button" value="CIFRAR" id="button" class="button" onclick="getEncode()" >
-          <input type="button" value="DECIFRAR" id="button" class="button" onclick="getDecode()" >
-          <input type="reset" value="RESET" id="button" class="button" ><br><br>
-      </form>
-          <textarea type="text" name="textoCifrado" id="textoCifrado" cols="49" rows="8" > Verifique seu resultado aqui !!! </textarea>
-      </div>
-      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Black+Ops+One|Lobster+Two|Orbitron" rel="stylesheet">
-    <script src="cipher.js"></script>
-    <script src="tests.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div>
+    <form>
+      <h1>Bem vindo a cifra de Cesar... </h1>
+      <h3>Desenvolvida com o intuito de possibilitar à dois indivíduos se comunicar de forma segura,<br>
+        ou seja, consiste em cifrar uma informação que será enviada pelo remetente de forma que, <br>
+        caso esta informação seja interceptada por algum intruso, ele não seja capaz de entende-la. <br><br>
+        Teste você mesmo e faça as suas mensagens criptografadas!!!</h3>
+
+      <label>Insira o texto a ser criptografado:</label><br>
+      <input type="text" name="texto" id="texto"><br>
+
+      <label>Insira o valor do deslocamento:</label> <br>
+      <input type="number" name="deslocamento" id="deslocamento"><br><br>
+
+      <input type="button" value="CIFRAR" id="button" onclick="getEncode()">
+      <input type="button" value="DECIFRAR" id="button" onclick="getDecode()">
+      <input type="reset" value="COPIAR TEXTO" id="button" onclick="copiarTexto()"><br><br>
+    </form>
+    <textarea name="textoCifrado" id="textoCifrado" cols="60" rows="8"> Verifique sua mensagem aqui !!! </textarea>
+  </div>
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Black+Ops+One|Lobster+Two|Orbitron" rel="stylesheet">
+  <script src="cipher.js"></script>
+  <script src="tests.js"></script>
+</body>
+
 </html>
