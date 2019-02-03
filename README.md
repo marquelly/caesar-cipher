@@ -51,7 +51,7 @@ Página web que roda em div única para melhor experiencia do usuario composto p
 >> três botões (cifrar, decifrar e copiar texto)
 >> campo no qual mostra o resultado do processamento escolhido
 
-![caeser-cipher](https://github.com/marquelly/caesar-cipher/blob/master/Estrutura%20da%20pagina%20em%20diagrama%20de%20blocos.jpeg)
+![Diagrama de blocos](https://github.com/marquelly/caesar-cipher/blob/master/Estrutura%20da%20pagina%20em%20diagrama%20de%20blocos.jpeg)
 
 ## Experiência do usuário
 
