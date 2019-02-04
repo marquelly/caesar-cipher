@@ -45,12 +45,13 @@ A página roda em todos os navegadores.
 ## Estrutura da aplicação
 
 Página web que roda em div única para melhor experiencia do usuario composto por:
->> breve descrição do página
->> campo alfanumérico para inserir texto a ser processado
->> campo numérico para inserir deslocamento escolhido, por se tratar de campo numérico o mesmo não aceita demais tipos de entrada a não ser números.
->> três botões (cifrar, decifrar e copiar texto)
->> campo no qual mostra o resultado do processamento escolhido
+- Breve descrição do página.
+- Campo alfanumérico para inserir texto a ser processado
+- Campo numérico para inserir deslocamento escolhido, por se tratar de campo numérico o mesmo não aceita demais tipos de entrada a não ser números.
+- Três botões (cifrar, decifrar e copiar texto)
+- Campo no qual mostra o resultado do processamento escolhido
 
+** Diagrama de blocos do programa
 ![Diagrama de blocos](https://github.com/marquelly/caesar-cipher/blob/master/Estrutura%20da%20pagina%20em%20diagrama%20de%20blocos.jpeg)
 
 ## Experiência do usuário
